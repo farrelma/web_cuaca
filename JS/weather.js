@@ -10,7 +10,7 @@ document.body.style.backgroundColor = "#CAEFFF";
 btnSearch.onclick = () => {
     fetch(`${weatherAPI}&q=${keyword.value}`, {
         headers: {
-            'Access-Control-Allow-Origin' : *,
+            'Access-Control-Allow-Origin' : "*",
         }
     })
     .then((res) => res.json())
