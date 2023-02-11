@@ -1,0 +1,63 @@
+/* NAMA = FARREL MUHAMMAD ALGHANI
+   KELAS = INFORMATIKA 9
+   NIM = 10122476 */
+body{
+    overflow: hidden;
+    min-height: 100vh;
+}
+.center {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+.background{
+    left: 0;
+    right: 0;
+    padding-top: 30px;
+    min-height: 100vh;
+}
+.left-bg{
+    left: 0;
+}
+.right-bg{
+    display: flex;
+    right: 0;
+    margin-right: 0;
+    justify-content: end;
+}
+.content{
+    top: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+    z-index: 1000;
+}
+.card{
+    background-color: rgba(255, 255, 255, 0.28) !important;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 15px !important;
+}
+.keyword{
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+    border: 0;
+    margin-right: 8px;
+    padding: 8px;
+    width: 250px;
+}
+.btn-search{
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+    border: 0;
+    padding: 8px;
+}
+.top-bg{
+    position: absolute;
+    z-index: -100;
+}
+.bottom-bg{
+    position: absolute;
+    z-index: -1000;
+    bottom: 0;
+}
