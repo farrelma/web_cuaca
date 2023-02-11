@@ -8,7 +8,11 @@ const container = document.getElementById('container')
 document.body.style.backgroundColor = "#CAEFFF";
 
 btnSearch.onclick = () => {
-    fetch(`${weatherAPI}&q=${keyword.value}`)
+    fetch(`${weatherAPI}&q=${keyword.value}`, {
+        headers: {
+            'Access-Control-Allow-Origin' : *,
+        }
+    })
     .then((res) => res.json())
     .then((data) => {
         console.log(data)
