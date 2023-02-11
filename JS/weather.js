@@ -1,7 +1,7 @@
 // NAMA = FARREL MUHAMMAD ALGHANI
 // KELAS =INFORMATIKA 9
 // NIM = 10122476
-const weatherAPI = 'http://api.weatherapi.com/v1/current.json?key=1bac1330ade4406bac8161851230102&dt=2023-03-11&aqi=no';
+const weatherAPI = 'https://api.weatherapi.com/v1/current.json?key=1bac1330ade4406bac8161851230102&dt=2023-03-11&aqi=no';
 const keyword = document.querySelector(".keyword");
 const btnSearch = document.querySelector(".btn-search");
 const container = document.getElementById('container')
